@@ -51,3 +51,4 @@ EcoMarket_JuanArdila/
    ```
 2. Abre la carpeta del proyecto en tu editor de código (como VS Code).
 3. Abre el archivo `index.html` directamente en tu navegador web o utilizando la extensión **Live Server**.
+
