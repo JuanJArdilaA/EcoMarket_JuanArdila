@@ -4,7 +4,7 @@ Maquetación web responsiva para **EcoMarket**, una tienda en línea de producto
 
 ## Enlace de la Página (Demo en Vivo)
 
-- **Sitio desplegado**: [https://stellar-salamander-0b0802.netlify.app/](https://stellar-salamander-0b0802.netlify.app/)
+- **Sitio desplegado**: [https://ecomarket-juanardila.netlify.app/](https://ecomarket-juanardila.netlify.app/)
 
 ## Descripción del Proyecto
 
