@@ -2,6 +2,10 @@
 
 Maquetación web responsiva para **EcoMarket**, una tienda en línea de productos ecológicos, reutilizables y de consumo consciente, desarrollada únicamente con HTML5 semántico y CSS3 puro.
 
+## Enlace de la Página (Demo en Vivo)
+
+- **Sitio desplegado**: [https://stellar-salamander-0b0802.netlify.app/](https://stellar-salamander-0b0802.netlify.app/)
+
 ## Descripción del Proyecto
 
 El sitio cuenta con 4 vistas principales interconectadas que permiten explorar productos sostenibles, filtrar el catálogo por categorías o rango de precio, conocer la historia y misión ecológica de la marca y enviar consultas mediante un formulario con validación nativa.
