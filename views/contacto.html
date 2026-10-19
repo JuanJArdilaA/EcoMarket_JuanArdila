@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto y Soporte - EcoMarket</title>
+  <!-- hojas de estilo -->
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/animations.css">
+</head>
+<body>
+
+  <!-- cabecera principal -->
+  <header class="cabecera">
+    <a href="../index.html" class="logo">
+      <img src="../img/icons/hoja.svg" alt="Logo EcoMarket">
+      <span>EcoMarket</span>
+    </a>
+
+    <!-- menu principal -->
+    <nav>
+      <ul class="menu">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+        <li><a href="contacto.html" class="activo">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <!-- iconos de busqueda y carrito -->
+    <div class="iconos-nav">
+      <a href="productos.html" title="Buscar productos">
+        <img src="../img/icons/lupa.svg" alt="Buscar">
+      </a>
+      <a href="productos.html" class="icono-carrito" title="Ver carrito">
+        <img src="../img/icons/carrito.svg" alt="Carrito">
+        <span class="contador">2</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- contenido principal -->
+  <main class="contenedor">
+
+    <!-- titulo principal de contacto -->
+    <section class="cabecera-contacto">
+      <h1>Estamos aquí para ayudarte.</h1>
+      <p>¿Tienes alguna duda sobre un estilo de vida sostenible o sobre tu pedido? Escríbenos y nuestro equipo ecológico te responderá pronto.</p>
+    </section>
+
+    <!-- grilla de contacto: formulario e informacion -->
+    <div class="layout-contacto">
+
+      <!-- formulario de contacto con validacion css -->
+      <section class="formulario-contacto">
+        <form action="#" method="get">
+
+          <!-- campo nombre -->
+          <div class="campo">
+            <label for="nombre">Nombre Completo</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Ardila" minlength="3" required>
+          </div>
+
+          <!-- campo correo -->
+          <div class="campo">
+            <label for="correo">Correo Electrónico</label>
+            <input type="email" id="correo" name="correo" placeholder="juan@ejemplo.com" required>
+          </div>
+
+          <!-- campo mensaje -->
+          <div class="campo">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="¿Cómo podemos ayudarte hoy?" minlength="10" required></textarea>
+          </div>
+
+          <!-- boton de envio -->
+          <button type="submit" class="btn btn-verde">Enviar Mensaje</button>
+
+        </form>
+      </section>
+
+      <!-- columna lateral con mapa, datos y redes -->
+      <aside>
+        <h3>Nuestra Sede</h3>
+
+        <!-- mapa estatico estilizado -->
+        <div class="caja-mapa">
+          <img src="../img/hero/mapa-ubicacion.jpg" alt="Mapa de ubicación EcoMarket">
+          <div class="info-mapa">
+            <h3>Calle Ecológica 123, Ciudad Verde</h3>
+            <p>Abierto Lun - Vie, 9:00 am - 5:00 pm</p>
+          </div>
+        </div>
+
+        <!-- tarjetas de correo y telefono -->
+        <div class="grid-datos-contacto">
+          <article class="caja-dato">
+            <h3>Escríbenos</h3>
+            <p>soporte@ecomarket.com</p>
+          </article>
+
+          <article class="caja-dato">
+            <h3>Llámanos</h3>
+            <p>+57 (601) 234-5678</p>
+          </article>
+        </div>
+
+        <!-- iconos de redes sociales con efecto scale -->
+        <div>
+          <p>Sigue nuestro camino hacia un futuro más verde</p>
+          <div class="redes-sociales">
+            <a href="https://instagram.com" class="icono-red" target="_blank" rel="noopener" title="Instagram">
+              <img src="../img/icons/instagram.svg" alt="Instagram">
+            </a>
+            <a href="https://facebook.com" class="icono-red" target="_blank" rel="noopener" title="Facebook">
+              <img src="../img/icons/facebook.svg" alt="Facebook">
+            </a>
+            <a href="https://twitter.com" class="icono-red" target="_blank" rel="noopener" title="Twitter">
+              <img src="../img/icons/twitter.svg" alt="Twitter">
+            </a>
+          </div>
+        </div>
+
+      </aside>
+
+    </div>
+
+  </main>
+
+  <!-- pie de pagina -->
+  <footer class="pie">
+    <div class="contenedor">
+      <div class="columnas-pie">
+
+        <!-- columna 1 info -->
+        <div class="columna-pie">
+          <a href="../index.html" class="logo">
+            <img src="../img/icons/hoja.svg" alt="Logo EcoMarket">
+            <span>EcoMarket</span>
+          </a>
+          <p>Compras éticas para consumidores conscientes. Creemos en la transparencia y la calidad que no le cuesta al planeta.</p>
+          <div class="redes-sociales">
+            <a href="https://instagram.com" class="icono-red" target="_blank" rel="noopener">
+              <img src="../img/icons/instagram.svg" alt="Instagram">
+            </a>
+            <a href="https://facebook.com" class="icono-red" target="_blank" rel="noopener">
+              <img src="../img/icons/facebook.svg" alt="Facebook">
+            </a>
+            <a href="https://twitter.com" class="icono-red" target="_blank" rel="noopener">
+              <img src="../img/icons/twitter.svg" alt="Twitter">
+            </a>
+          </div>
+        </div>
+
+        <!-- columna 2 tienda -->
+        <div class="columna-pie">
+          <h3>Tienda</h3>
+          <ul>
+            <li><a href="productos.html">Todos los Productos</a></li>
+            <li><a href="productos.html">Nuevos Ingresos</a></li>
+            <li><a href="productos.html">Colección Bambú</a></li>
+            <li><a href="productos.html">Kits Cero Residuos</a></li>
+          </ul>
+        </div>
+
+        <!-- columna 3 empresa -->
+        <div class="columna-pie">
+          <h3>Empresa</h3>
+          <ul>
+            <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+            <li><a href="sobre-nosotros.html">Promesa Sostenible</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+
+        <!-- columna 4 soporte -->
+        <div class="columna-pie">
+          <h3>Soporte</h3>
+          <ul>
+            <li><a href="contacto.html">Centro de Ayuda</a></li>
+            <li><a href="contacto.html">Envíos y Devoluciones</a></li>
+            <li><a href="contacto.html">Términos y Condiciones</a></li>
+            <li><a href="contacto.html">Política de Privacidad</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="derechos">
+        <p>&copy; 2026 EcoMarket Inc. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
