@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre Nosotros - EcoMarket</title>
+  <!-- hojas de estilo -->
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/animations.css">
+</head>
+<body>
+
+  <!-- cabecera principal -->
+  <header class="cabecera">
+    <a href="../index.html" class="logo">
+      <img src="../img/icons/hoja.svg" alt="Logo EcoMarket">
+      <span>EcoMarket</span>
+    </a>
+
+    <!-- menu principal -->
+    <nav>
+      <ul class="menu">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="sobre-nosotros.html" class="activo">Sobre Nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <!-- iconos de busqueda y carrito -->
+    <div class="iconos-nav">
+      <a href="productos.html" title="Buscar productos">
+        <img src="../img/icons/lupa.svg" alt="Buscar">
+      </a>
+      <a href="productos.html" class="icono-carrito" title="Ver carrito">
+        <img src="../img/icons/carrito.svg" alt="Carrito">
+        <span class="contador">2</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- contenido principal -->
+  <main>
+
+    <!-- banner hero de sobre nosotros -->
+    <section class="hero-nosotros">
+      <div class="contenedor">
+        <span class="etiqueta-hero">DESDE 2021</span>
+        <h1>Consumo Consciente</h1>
+        <p>Redefiniendo la forma en que compramos por el planeta. Creemos que cada compra responsable tiene el poder de transformar el mundo.</p>
+        <a href="#nuestra-historia" class="btn btn-verde">Nuestra Historia &darr;</a>
+      </div>
+    </section>
+
+    <div class="contenedor">
+
+      <!-- lista de 4 principios ecologicos -->
+      <section class="grid-principios">
+
+        <!-- principio 1 -->
+        <article class="item-principio">
+          <div class="icono-principio">
+            <img src="../img/icons/hoja.svg" alt="Libre de Plástico">
+          </div>
+          <h3>Libre de Plástico</h3>
+          <p>Cero plásticos de un solo uso en todos nuestros productos y empaques.</p>
+        </article>
+
+        <!-- principio 2 -->
+        <article class="item-principio">
+          <div class="icono-principio">
+            <img src="../img/icons/reciclaje.svg" alt="Comercio Justo">
+          </div>
+          <h3>Comercio Justo</h3>
+          <p>Salarios éticos y condiciones de trabajo seguras para cada artesano.</p>
+        </article>
+
+        <!-- principio 3 -->
+        <article class="item-principio">
+          <div class="icono-principio">
+            <img src="../img/icons/hoja.svg" alt="100% Vegano">
+          </div>
+          <h3>100% Vegano</h3>
+          <p>Ingredientes de origen vegetal y libres de crueldad animal siempre.</p>
+        </article>
+
+        <!-- principio 4 -->
+        <article class="item-principio">
+          <div class="icono-principio">
+            <img src="../img/icons/reciclaje.svg" alt="Carbono Neutro">
+          </div>
+          <h3>Carbono Neutro</h3>
+          <p>Compensamos el 100% de las emisiones generadas en cada envío local.</p>
+        </article>
+
+      </section>
+
+      <!-- seccion de historia con flexbox (columna en movil, fila en desktop) -->
+      <section id="nuestra-historia" class="seccion">
+
+        <!-- bloque 1: nuestra mision -->
+        <article class="fila-historia">
+          <div class="columna-imagen">
+            <img src="../img/hero/nuestra-mision.jpg" alt="Planta sostenible en manos">
+          </div>
+          <div class="columna-texto">
+            <span class="pastilla activo">Nuestra Misión</span>
+            <h2>Comprar mejor no debería ser difícil.</h2>
+            <p>Seleccionamos únicamente los productos más limpios y nobles con la tierra para asegurar un futuro sostenible. Cada artículo es evaluado por su impacto en las personas y el planeta, para que compres con total confianza.</p>
+            <a href="productos.html" class="enlace-ver">Conoce nuestro catálogo ecológico &rarr;</a>
+          </div>
+        </article>
+
+        <!-- bloque 2: compromiso ecologico -->
+        <article class="fila-historia fila-invertida">
+          <div class="columna-imagen">
+            <img src="../img/hero/compromiso-eco.jpg" alt="Caja de envío ecológica compostable">
+          </div>
+          <div class="columna-texto">
+            <span class="pastilla activo">Compromiso Eco</span>
+            <h2>Pequeños pasos, grandes cambios.</h2>
+            <p>Desde envíos carbono neutro hasta sobres 100% compostables, cuidamos cada detalle. Creemos que la transparencia ambiental es el nuevo estándar del comercio moderno.</p>
+            <ul class="lista-checks">
+              <li>&check; Empaques libres de plástico y compostables</li>
+              <li>&check; Proveedores y agricultores locales primero</li>
+              <li>&check; Miembros activos del 1% para el Planeta</li>
+            </ul>
+          </div>
+        </article>
+
+      </section>
+
+      <!-- seccion de testimonios con scroll horizontal y hover -->
+      <section class="seccion">
+        <div class="encabezado-seccion">
+          <div>
+            <h2>Amor de la Comunidad</h2>
+            <p>Lo que opinan quienes ya dieron el paso hacia un hogar sostenible.</p>
+          </div>
+          <a href="productos.html" class="enlace-ver">Ver tienda &rarr;</a>
+        </div>
+
+        <div class="carrusel-testimonios">
+
+          <!-- testimonio 1 -->
+          <article class="tarjeta-testimonio">
+            <div class="estrellas">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p>"Por fin una tienda en la que puedo confiar. El empaque cero residuos fue una sorpresa encantadora y todo llegó en perfecto estado."</p>
+            <p class="autor-testimonio">Laura Gómez &mdash; Bogotá, Colombia</p>
+          </article>
+
+          <!-- testimonio 2 -->
+          <article class="tarjeta-testimonio">
+            <div class="estrellas">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p>"Las bolsas de malla de algodón son fantásticas. Llevo meses usándolas para el mercado semanal y resisten muchísimo peso."</p>
+            <p class="autor-testimonio">Carlos Ramírez &mdash; Medellín, Colombia</p>
+          </article>
+
+          <!-- testimonio 3 -->
+          <article class="tarjeta-testimonio">
+            <div class="estrellas">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p>"Me encanta la misión y la calidad de los cepillos de bambú y el shampoo sólido. Se siente bien apoyar una marca que cuida su huella."</p>
+            <p class="autor-testimonio">Elena Rodríguez &mdash; Madrid, España</p>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- llamado a la accion final -->
+      <section class="cta-final">
+        <h2>¿Listo para hacer el cambio?</h2>
+        <p>Únete a miles de consumidores conscientes que marcan la diferencia con cada compra.</p>
+        <a href="productos.html" class="btn btn-verde">Comprar Sostenible</a>
+      </section>
+
+    </div>
+
+  </main>
+
+  <!-- pie de pagina -->
+  <footer class="pie">
+    <div class="contenedor">
+      <div class="columnas-pie">
+
+        <!-- columna 1 info -->
+        <div class="columna-pie">
+          <a href="../index.html" class="logo">
+            <img src="../img/icons/hoja.svg" alt="Logo EcoMarket">
+            <span>EcoMarket</span>
+          </a>
+          <p>Compras éticas para consumidores conscientes. Hacemos que la vida sostenible sea accesible y sencilla.</p>
+          <div class="redes-sociales">
+            <a href="https://instagram.com" class="icono-red" target="_blank" rel="noopener">
+              <img src="../img/icons/instagram.svg" alt="Instagram">
+            </a>
+            <a href="https://facebook.com" class="icono-red" target="_blank" rel="noopener">
+              <img src="../img/icons/facebook.svg" alt="Facebook">
+            </a>
+            <a href="https://twitter.com" class="icono-red" target="_blank" rel="noopener">
+              <img src="../img/icons/twitter.svg" alt="Twitter">
+            </a>
+          </div>
+        </div>
+
+        <!-- columna 2 tienda -->
+        <div class="columna-pie">
+          <h3>Tienda</h3>
+          <ul>
+            <li><a href="productos.html">Nuevos Ingresos</a></li>
+            <li><a href="productos.html">Cocina</a></li>
+            <li><a href="productos.html">Textiles</a></li>
+            <li><a href="productos.html">Bambú</a></li>
+          </ul>
+        </div>
+
+        <!-- columna 3 empresa -->
+        <div class="columna-pie">
+          <h3>Empresa</h3>
+          <ul>
+            <li><a href="sobre-nosotros.html">Nuestra Historia</a></li>
+            <li><a href="sobre-nosotros.html">Promesa Sostenible</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+
+        <!-- columna 4 soporte -->
+        <div class="columna-pie">
+          <h3>Soporte</h3>
+          <ul>
+            <li><a href="contacto.html">Preguntas Frecuentes</a></li>
+            <li><a href="contacto.html">Envíos y Devoluciones</a></li>
+            <li><a href="contacto.html">Términos y Condiciones</a></li>
+            <li><a href="contacto.html">Política de Privacidad</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="derechos">
+        <p>&copy; 2026 EcoMarket Inc. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
