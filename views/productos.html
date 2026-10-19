@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Productos - EcoMarket</title>
+  <!-- hojas de estilo -->
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/animations.css">
+</head>
+<body>
+
+  <!-- cabecera principal -->
+  <header class="cabecera">
+    <a href="../index.html" class="logo">
+      <img src="../img/icons/hoja.svg" alt="Logo EcoMarket">
+      <span>EcoMarket</span>
+    </a>
+
+    <!-- menu principal -->
+    <nav>
+      <ul class="menu">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="productos.html" class="activo">Productos</a></li>
+        <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <!-- iconos de busqueda y carrito -->
+    <div class="iconos-nav">
+      <a href="productos.html" title="Buscar productos">
+        <img src="../img/icons/lupa.svg" alt="Buscar">
+      </a>
+      <a href="productos.html" class="icono-carrito" title="Ver carrito">
+        <img src="../img/icons/carrito.svg" alt="Carrito">
+        <span class="contador">2</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- contenido principal del catalogo -->
+  <main class="contenedor">
+
+    <!-- barra superior con titulo y buscador -->
+    <section class="barra-superior-catalogo">
+      <div>
+        <h1>Catálogo Sostenible</h1>
+        <p>Mostrando 20 productos ecológicos seleccionados</p>
+      </div>
+
+      <!-- buscador visual -->
+      <div class="buscador">
+        <img src="../img/icons/lupa.svg" alt="Buscar">
+        <input type="search" placeholder="Buscar productos ecológicos...">
+      </div>
+    </section>
+
+    <!-- estructura principal con sidebar sticky y grilla -->
+    <div class="layout-catalogo">
+
+      <!-- barra lateral de filtros -->
+      <aside class="sidebar">
+
+        <!-- filtro por categorias -->
+        <div class="bloque-filtro">
+          <h3>Categorías</h3>
+          <ul class="lista-filtros">
+            <li>
+              <label>
+                <input type="radio" name="categoria" checked>
+                <span>Todos los Productos</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="categoria">
+                <span>Cocina Sostenible</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="categoria">
+                <span>Cero Residuos</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="categoria">
+                <span>Cuidado Personal</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="categoria">
+                <span>Textiles Orgánicos</span>
+              </label>
+            </li>
+          </ul>
+        </div>
+
+        <!-- filtro por rango de precio -->
+        <div class="bloque-filtro">
+          <h3>Rango de Precio</h3>
+          <input type="range" min="5" max="100" value="50" class="rango-precio">
+          <div class="cajas-precio">
+            <span>$5</span>
+            <span>$50</span>
+            <span>$100+</span>
+          </div>
+        </div>
+
+        <!-- filtro por disponibilidad y sellos -->
+        <div class="bloque-filtro">
+          <h3>Filtrar Por</h3>
+          <ul class="lista-filtros">
+            <li>
+              <label>
+                <input type="checkbox" checked>
+                <span>En Stock</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" checked>
+                <span>Biodegradable</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox">
+                <span>Libre de Plástico</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox">
+                <span>100% Orgánico</span>
+              </label>
+            </li>
+          </ul>
+        </div>
+
+      </aside>
+
+      <!-- contenedor de la grilla de productos -->
+      <section>
+        <div class="grid-catalogo">
+          <!-- tarjetas de productos -->
+        </div>
+      </section>
+
+    </div>
+
+  </main>
+
+  <!-- pie de pagina -->
+  <footer class="pie">
+    <div class="contenedor">
+      <div class="columnas-pie">
+
+        <!-- columna 1 info -->
+        <div class="columna-pie">
+          <a href="../index.html" class="logo">
+            <img src="../img/icons/hoja.svg" alt="Logo EcoMarket">
+            <span>EcoMarket</span>
+          </a>
+          <p>Compras éticas para consumidores conscientes. Pequeños pasos, grandes cambios para el planeta.</p>
+          <div class="redes-sociales">
+            <a href="https://instagram.com" class="icono-red" target="_blank" rel="noopener">
+              <img src="../img/icons/instagram.svg" alt="Instagram">
+            </a>
+            <a href="https://facebook.com" class="icono-red" target="_blank" rel="noopener">
+              <img src="../img/icons/facebook.svg" alt="Facebook">
+            </a>
+            <a href="https://twitter.com" class="icono-red" target="_blank" rel="noopener">
+              <img src="../img/icons/twitter.svg" alt="Twitter">
+            </a>
+          </div>
+        </div>
+
+        <!-- columna 2 tienda -->
+        <div class="columna-pie">
+          <h3>Tienda</h3>
+          <ul>
+            <li><a href="productos.html">Todos los Productos</a></li>
+            <li><a href="productos.html">Nuevos Ingresos</a></li>
+            <li><a href="productos.html">Más Vendidos</a></li>
+            <li><a href="productos.html">Kits Cero Residuos</a></li>
+          </ul>
+        </div>
+
+        <!-- columna 3 empresa -->
+        <div class="columna-pie">
+          <h3>Empresa</h3>
+          <ul>
+            <li><a href="sobre-nosotros.html">Nuestra Misión</a></li>
+            <li><a href="sobre-nosotros.html">Sostenibilidad</a></li>
+            <li><a href="contacto.html">Contáctanos</a></li>
+          </ul>
+        </div>
+
+        <!-- columna 4 soporte -->
+        <div class="columna-pie">
+          <h3>Soporte</h3>
+          <ul>
+            <li><a href="contacto.html">Preguntas Frecuentes</a></li>
+            <li><a href="contacto.html">Envíos y Devoluciones</a></li>
+            <li><a href="contacto.html">Política de Privacidad</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="derechos">
+        <p>&copy; 2026 EcoMarket Inc. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
