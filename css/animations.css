@@ -1,0 +1,100 @@
+/* animacion suave al cargar el banner */
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-contenido {
+  animation: aparecer 0.6s ease-out;
+}
+
+/* sube la tarjeta al pasar el mouse */
+.card,
+.tarjeta,
+.tarjeta-testimonio {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover,
+.tarjeta:hover,
+.tarjeta-testimonio:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* efectos en botones y enlaces */
+.btn,
+.btn-carrito,
+.pastilla,
+.pagina {
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s ease;
+}
+
+.btn-verde:hover {
+  background-color: var(--verde-oscuro);
+}
+
+.btn-carrito:hover {
+  background-color: var(--verde-claro);
+  color: var(--blanco);
+  border-color: var(--verde-claro);
+}
+
+.btn:active,
+.btn-carrito:active {
+  transform: scale(0.97);
+}
+
+.menu a:hover {
+  color: var(--verde-oscuro);
+}
+
+/* cambio de color en favoritos sin js usando target y active */
+.btn-favorito {
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.btn-favorito:hover {
+  border-color: var(--rojo-error);
+  color: var(--rojo-error);
+}
+
+.btn-favorito:active,
+.btn-favorito:target {
+  background-color: var(--rojo-error);
+  color: var(--blanco);
+  border-color: var(--rojo-error);
+  transform: scale(1.1);
+}
+
+/* validacion del formulario con bordes verde y rojo */
+.campo input,
+.campo textarea {
+  transition: border-color 0.2s ease;
+}
+
+.campo input:valid,
+.campo textarea:valid {
+  border-color: var(--verde-claro);
+}
+
+.campo input:invalid:not(:placeholder-shown),
+.campo textarea:invalid:not(:placeholder-shown) {
+  border-color: var(--rojo-error);
+}
+
+/* aumenta iconos de redes sociales al pasar el mouse */
+.icono-red {
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.icono-red:hover {
+  transform: scale(1.15);
+  border-color: var(--verde-oscuro);
+}
