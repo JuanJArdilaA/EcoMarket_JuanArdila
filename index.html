@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoMarket - Tienda Ecológica</title>
+  <!-- hojas de estilo -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+  <!-- cabecera principal -->
+  <header class="cabecera">
+    <a href="index.html" class="logo">
+      <img src="img/icons/hoja.svg" alt="Logo EcoMarket">
+      <span>EcoMarket</span>
+    </a>
+
+    <!-- menu principal -->
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html" class="activo">Inicio</a></li>
+        <li><a href="views/productos.html">Productos</a></li>
+        <li><a href="views/sobre-nosotros.html">Sobre Nosotros</a></li>
+        <li><a href="views/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <!-- iconos de busqueda y carrito -->
+    <div class="iconos-nav">
+      <a href="views/productos.html" title="Buscar productos">
+        <img src="img/icons/lupa.svg" alt="Buscar">
+      </a>
+      <a href="views/productos.html" class="icono-carrito" title="Ver carrito">
+        <img src="img/icons/carrito.svg" alt="Carrito">
+        <span class="contador">2</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- contenido principal -->
+  <main>
+
+    <!-- banner hero -->
+    <section class="hero">
+      <div class="contenedor">
+        <div class="hero-contenido">
+          <span class="etiqueta-hero">Nueva Colección 2026</span>
+          <h1>Compra responsable, vive sostenible</h1>
+          <p>Productos ecológicos para un mejor mañana. Materiales de origen ético, empaques cero residuos y diseñados para durar toda la vida.</p>
+          <div class="botones-hero">
+            <a href="views/productos.html" class="btn btn-verde">Ver Productos</a>
+            <a href="views/sobre-nosotros.html" class="btn btn-borde">Nuestro Impacto</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- seccion de productos destacados -->
+    <section class="seccion contenedor">
+
+      <!-- filtros rapidos por categoria -->
+      <div class="filtros-rapidos">
+        <a href="views/productos.html" class="pastilla activo">Todo</a>
+        <a href="views/productos.html" class="pastilla">Bambú</a>
+        <a href="views/productos.html" class="pastilla">Textiles</a>
+        <a href="views/productos.html" class="pastilla">Cocina</a>
+        <a href="views/productos.html" class="pastilla">Cero Residuos</a>
+      </div>
+
+      <!-- titulo de la seccion -->
+      <div class="encabezado-seccion">
+        <div>
+          <h2>Productos Destacados</h2>
+          <p>Esenciales ecológicos seleccionados para tu hogar.</p>
+        </div>
+        <a href="views/productos.html" class="enlace-ver">Ver todos los productos &rarr;</a>
+      </div>
+
+      <!-- grilla de 6 tarjetas destacadas -->
+      <div class="grid-destacados contenedor-tarjetas">
+
+        <!-- tarjeta 1 -->
+        <article class="card tarjeta">
+          <div class="imagen-tarjeta">
+            <span class="badge">Más Vendido</span>
+            <img src="img/products/cepillo-bambu.jpg" alt="Set de Cepillos de Bambú">
+            <a href="#fav-home-1" id="fav-home-1" class="btn-favorito" title="Favorito">&hearts;</a>
+          </div>
+          <div class="info-tarjeta">
+            <div class="fila-titulo">
+              <h3>Set Cepillos de Bambú</h3>
+              <span class="precio">$12.00</span>
+            </div>
+            <p class="descripcion-corta">Mangos de bambú orgánico con cerdas de carbón activado. 100% compostable.</p>
+            <a href="views/productos.html" class="btn-carrito">Añadir al carrito</a>
+          </div>
+        </article>
+
+        <!-- tarjeta 2 -->
+        <article class="card tarjeta">
+          <div class="imagen-tarjeta">
+            <span class="badge">Orgánico</span>
+            <img src="img/products/bolsa-malla.jpg" alt="Bolsa de Malla de Algodón">
+            <a href="#fav-home-2" id="fav-home-2" class="btn-favorito" title="Favorito">&hearts;</a>
+          </div>
+          <div class="info-tarjeta">
+            <div class="fila-titulo">
+              <h3>Bolsa Malla de Algodón</h3>
+              <span class="precio">$8.50</span>
+            </div>
+            <p class="descripcion-corta">Bolsa reutilizable de algodón orgánico ideal para frutas y verduras.</p>
+            <a href="views/productos.html" class="btn-carrito">Añadir al carrito</a>
+          </div>
+        </article>
+
+        <!-- tarjeta 3 -->
+        <article class="card tarjeta">
+          <div class="imagen-tarjeta">
+            <span class="badge">Libre de BPA</span>
+            <img src="img/products/botella-vidrio.jpg" alt="Botella de Agua de Vidrio">
+            <a href="#fav-home-3" id="fav-home-3" class="btn-favorito" title="Favorito">&hearts;</a>
+          </div>
+          <div class="info-tarjeta">
+            <div class="fila-titulo">
+              <h3>Botella de Vidrio Eco</h3>
+              <span class="precio">$24.00</span>
+            </div>
+            <p class="descripcion-corta">Vidrio de borosilicato resistente con funda protectora de silicona.</p>
+            <a href="views/productos.html" class="btn-carrito">Añadir al carrito</a>
+          </div>
+        </article>
+
+        <!-- tarjeta 4 -->
+        <article class="card tarjeta">
+          <div class="imagen-tarjeta">
+            <span class="badge">Reutilizable</span>
+            <img src="img/products/envoltura-cera.jpg" alt="Envolturas de Cera de Abeja">
+            <a href="#fav-home-4" id="fav-home-4" class="btn-favorito" title="Favorito">&hearts;</a>
+          </div>
+          <div class="info-tarjeta">
+            <div class="fila-titulo">
+              <h3>Envolturas Cera Natural</h3>
+              <span class="precio">$15.00</span>
+            </div>
+            <p class="descripcion-corta">Alternativa sostenible al plástico adherente. Lavable y compostable.</p>
+            <a href="views/productos.html" class="btn-carrito">Añadir al carrito</a>
+          </div>
+        </article>
+
+        <!-- tarjeta 5 -->
+        <article class="card tarjeta">
+          <div class="imagen-tarjeta">
+            <span class="badge">Sin Plástico</span>
+            <img src="img/products/shampoo-solido.jpg" alt="Barra de Shampoo Cítrico">
+            <a href="#fav-home-5" id="fav-home-5" class="btn-favorito" title="Favorito">&hearts;</a>
+          </div>
+          <div class="info-tarjeta">
+            <div class="fila-titulo">
+              <h3>Shampoo Sólido Cítrico</h3>
+              <span class="precio">$14.00</span>
+            </div>
+            <p class="descripcion-corta">Barra concentrada con aceites esenciales naturales. Rinde hasta 80 lavados.</p>
+            <a href="views/productos.html" class="btn-carrito">Añadir al carrito</a>
+          </div>
+        </article>
+
+        <!-- tarjeta 6 -->
+        <article class="card tarjeta">
+          <div class="imagen-tarjeta">
+            <span class="badge">Cero Residuos</span>
+            <img src="img/products/bolsas-silicona.jpg" alt="Set de Bolsas de Silicona">
+            <a href="#fav-home-6" id="fav-home-6" class="btn-favorito" title="Favorito">&hearts;</a>
+          </div>
+          <div class="info-tarjeta">
+            <div class="fila-titulo">
+              <h3>Set Bolsas de Silicona</h3>
+              <span class="precio">$24.50</span>
+            </div>
+            <p class="descripcion-corta">Bolsas herméticas reutilizables para conservar alimentos en frío o calor.</p>
+            <a href="views/productos.html" class="btn-carrito">Añadir al carrito</a>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- banner de suscripcion al boletin -->
+      <div class="boletin">
+        <h2>Únete al Movimiento Verde</h2>
+        <p>Suscríbete a nuestro boletín para recibir consejos ecológicos, nuevos productos y descuentos exclusivos.</p>
+        <form action="#" method="get" class="form-boletin">
+          <input type="email" placeholder="Ingresa tu correo electrónico" required>
+          <button type="submit" class="btn">Suscribirme</button>
+        </form>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- pie de pagina -->
+  <footer class="pie">
+    <div class="contenedor">
+      <div class="columnas-pie">
+
+        <!-- columna 1 info -->
+        <div class="columna-pie">
+          <a href="index.html" class="logo">
+            <img src="img/icons/hoja.svg" alt="Logo EcoMarket">
+            <span>EcoMarket</span>
+          </a>
+          <p>Compras éticas para consumidores conscientes. Creemos en la transparencia y la calidad que cuida el planeta.</p>
+          <div class="redes-sociales">
+            <a href="https://instagram.com" class="icono-red" target="_blank" rel="noopener">
+              <img src="img/icons/instagram.svg" alt="Instagram">
+            </a>
+            <a href="https://facebook.com" class="icono-red" target="_blank" rel="noopener">
+              <img src="img/icons/facebook.svg" alt="Facebook">
+            </a>
+            <a href="https://twitter.com" class="icono-red" target="_blank" rel="noopener">
+              <img src="img/icons/twitter.svg" alt="Twitter">
+            </a>
+          </div>
+        </div>
+
+        <!-- columna 2 tienda -->
+        <div class="columna-pie">
+          <h3>Tienda</h3>
+          <ul>
+            <li><a href="views/productos.html">Todos los Productos</a></li>
+            <li><a href="views/productos.html">Nuevos Ingresos</a></li>
+            <li><a href="views/productos.html">Colección Bambú</a></li>
+            <li><a href="views/productos.html">Kits Cero Residuos</a></li>
+          </ul>
+        </div>
+
+        <!-- columna 3 empresa -->
+        <div class="columna-pie">
+          <h3>Empresa</h3>
+          <ul>
+            <li><a href="views/sobre-nosotros.html">Sobre Nosotros</a></li>
+            <li><a href="views/sobre-nosotros.html">Promesa Sostenible</a></li>
+            <li><a href="views/sobre-nosotros.html">Impacto Ecológico</a></li>
+            <li><a href="views/contacto.html">Trabaja con Nosotros</a></li>
+          </ul>
+        </div>
+
+        <!-- columna 4 soporte -->
+        <div class="columna-pie">
+          <h3>Soporte</h3>
+          <ul>
+            <li><a href="views/contacto.html">Centro de Ayuda</a></li>
+            <li><a href="views/contacto.html">Envíos y Devoluciones</a></li>
+            <li><a href="views/contacto.html">Términos y Condiciones</a></li>
+            <li><a href="views/contacto.html">Política de Privacidad</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="derechos">
+        <p>&copy; 2026 EcoMarket Inc. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
