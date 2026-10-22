@@ -31,6 +31,15 @@ EcoMarket_JuanArdila/
 │   ├── components.css
 │   └── animations.css
 ├── img/
+│   ├── evidencia/
+│   │   ├── pc-inicio.png
+│   │   ├── telefono-inicio.png
+│   │   ├── pc-productos.png
+│   │   ├── telefono-productos.png
+│   │   ├── pc-sobre-nosotros.png
+│   │   ├── telefono-sobre-nosotros.png
+│   │   ├── pc-contacto.png
+│   │   └── telefono-contacto.png
 │   ├── hero/
 │   ├── icons/
 │   └── products/
@@ -47,12 +56,45 @@ EcoMarket_JuanArdila/
 3. **Sobre Nosotros (`views/sobre-nosotros.html`)**: Principios ecológicos, sección de historia alineada con Flexbox y carrusel horizontal de testimonios.
 4. **Contacto (`views/contacto.html`)**: Formulario de soporte con bordes de validación en tiempo real (`:valid` / `:invalid`), mapa estático de sede e íconos de redes sociales animados.
 
+## Evidencia (Capturas de Pantalla en Google Chrome)
+
+A continuación se presenta la evidencia visual del comportamiento y diseño responsivo (*Mobile First*) del sitio web en **Google Chrome**, contrastando la visión de escritorio (PC) y la visión móvil (Teléfono) para cada una de las 4 vistas del proyecto:
+
+### 1. Vista de Inicio (`index.html`)
+
+| Visión de PC (Escritorio - Chrome) | Visión de Teléfono (Móvil - Chrome) |
+| :--- | :--- |
+| <img src="img/evidencia/pc-inicio.png" alt="Inicio en PC" width="650"> | <img src="img/evidencia/telefono-inicio.png" alt="Inicio en Teléfono" width="230"> |
+
+---
+
+### 2. Vista del Catálogo de Productos (`views/productos.html`)
+
+| Visión de PC (Escritorio - Chrome) | Visión de Teléfono (Móvil - Chrome) |
+| :--- | :--- |
+| <img src="img/evidencia/pc-productos.png" alt="Productos en PC" width="650"> | <img src="img/evidencia/telefono-productos.png" alt="Productos en Teléfono" width="230"> |
+
+---
+
+### 3. Vista Sobre Nosotros (`views/sobre-nosotros.html`)
+
+| Visión de PC (Escritorio - Chrome) | Visión de Teléfono (Móvil - Chrome) |
+| :--- | :--- |
+| <img src="img/evidencia/pc-sobre-nosotros.png" alt="Sobre Nosotros en PC" width="650"> | <img src="img/evidencia/telefono-sobre-nosotros.png" alt="Sobre Nosotros en Teléfono" width="230"> |
+
+---
+
+### 4. Vista de Contacto (`views/contacto.html`)
+
+| Visión de PC (Escritorio - Chrome) | Visión de Teléfono (Móvil - Chrome) |
+| :--- | :--- |
+| <img src="img/evidencia/pc-contacto.png" alt="Contacto en PC" width="650"> | <img src="img/evidencia/telefono-contacto.png" alt="Contacto en Teléfono" width="230"> |
+
 ## Cómo Ejecutar el Proyecto Localmente
 
 1. Clona este repositorio en tu máquina local:
    ```bash
-   git clone <url-del-repositorio>
+   git clone <https://github.com/JuanJArdilaA/EcoMarket_JuanArdila.git>
    ```
 2. Abre la carpeta del proyecto en tu editor de código (como VS Code).
 3. Abre el archivo `index.html` directamente en tu navegador web o utilizando la extensión **Live Server**.
-
